@@ -1,0 +1,47 @@
+<html><head>
+   <script>
+         function    Login()
+            {
+                var UserName=document.getElementById("txtUserName").value;
+                var Password=document.getElementById("txtpassword").value;
+                if(UserName=="admin" &&Password=="123")
+                    {
+                window.open("welcome.html");
+
+
+                    } 
+
+
+
+            }
+
+
+
+
+   </script>
+ </head> 
+ <body bgcolor="yellow">
+ <center>
+
+  <h1><font color="blue">Login</font> </h1>
+    <table border="1" width="300">
+     <tbody><tr>
+          <td> <font color="blue">User Name </font> </td>
+          <td> <input type="text" id="txtUserName">  </td>
+     </tr>
+       <tr>
+          <td> <font color="blue">PassWord </font> </td>
+          <td> <input type="password" id="txtpassword">  </td>
+     </tr>
+ <tr>
+          <td colspan="2"> <input type="button" value="Sign In" onclick="Login()">  </td>
+          
+     </tr>
+
+    
+  </table>
+  
+  </center>
+</font>
+ 
+</body></html>
